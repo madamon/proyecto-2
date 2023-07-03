@@ -167,8 +167,7 @@ article.hablemos {
 
  }
  /*Desktop */
-
-@media (mix-width: 1024px) {
+ @media (min-width: 1024px)
 
 
     h1 {
@@ -186,7 +185,7 @@ article.hablemos {
     }
 
     article.presentacion {
-        width: 50%;
+        width: 50;
         text-align:left;
     }
     ul#contact-links li  {
